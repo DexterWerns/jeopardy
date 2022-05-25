@@ -244,9 +244,7 @@ export default ({ navigation }) => {
         }}
       >
         <TouchableHighlight style={styles.box}>
-          <Text style={styles.font} onPress={() => navigation.push("CFB $100")}>
-            CFB
-          </Text>
+          <Text style={styles.font}>CFB</Text>
         </TouchableHighlight>
         <TouchableHighlight style={styles.box}>
           <Text style={styles.font} onPress={() => navigation.push("CFB $100")}>
